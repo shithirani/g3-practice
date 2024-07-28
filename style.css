@@ -1,0 +1,237 @@
+.box-1 {
+    max-width: 1440px;
+    margin: 0 auto;
+    /* border: 1px solid green; */
+    background-color: rgb(170, 142, 151 ,0.2);
+}
+.all-doc{
+    max-width: 850px;
+    
+    margin: 0 auto;
+    /* border: 1px solid green; */
+}
+.banner-contain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav ul li{
+    list-style: none;
+    margin-left: 50px;
+}
+nav li a{
+    color: rgb(44, 39, 39);
+    text-decoration: none;   
+}
+nav ul{
+    display: flex;
+}
+h3{
+    color: black;
+    font-size:45px;
+    font-weight: bold;
+}
+.contain-imgs{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+h2{
+    font-size: 45px;
+    font-weight: bold;
+}
+.contain-img p{
+ color: rgb(44, 39, 39);
+    
+}
+.banner-img{
+    width: 100%;
+}
+.btn{
+    border: none;
+    background-color: rgb(237, 69, 7);
+    padding: 20px 25px;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+.box-2{
+    max-width: 1440px;
+    margin: 0 auto;
+    /* border: 1px solid green; */
+    margin-top: 30px;
+}
+
+.all-doc-2{
+    max-width: 850px;
+    margin: 0 auto;
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;   
+}
+
+.box-contain-pic{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+    /* margin-right: 130px; */
+}
+
+.text-style{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 1rem; 
+}
+
+.quicks{
+    color: rgba(13, 19, 33, 0.7); ;
+}
+.box-contain-pic img{
+    width: 100%;
+}
+
+.box-contain-text{
+    margin-left: 130px;
+    max-width:530px ;
+}
+.box-3{
+    max-width: 1440px;
+    margin: 0 auto;
+    /* border: 1px solid green; */
+}
+.all-doc-3{
+    max-width: 850px;
+    margin: 0 auto;
+    /* border: 1px solid green; */
+}
+.pic-1{
+    width:250px;
+    height:150px;
+    border: 1px solid greenyellow;
+    border-radius: 10px;
+    line-height:1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+}
+.pics{
+    width: 50px;
+    height: 50px;
+}
+.four-pic{
+    display: flex;
+   
+}
+.designs{
+    max-width: 1440px;
+    margin: 0 auto;
+    /* border: 1px solid green; */
+    margin-top: 30px;
+}
+.texts{
+    width: 400px;
+    margin-left: 5px;
+    margin-right:20px;
+    background-color: rgba(232, 225, 225, 0.4);
+    box-shadow:5px 5px 5px  rgba(241, 239, 239, 0.9);
+  
+}
+.texts p{
+    color: rgba(13, 19, 33, 0.7);
+}
+.all-doc-4{
+    max-width: 850px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 40px;
+}
+.divs{
+    /* width: 200px; */
+    /* height: 100px; */
+    background-color: orangered;
+    padding: 35px 32px;
+    line-height:20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: -100px;
+    margin-top:-100px;
+    position: absolute;
+
+
+}
+.divs h3{
+    color: white;
+    
+
+}
+.pic-info img{
+    width: 100%;
+    position: relative;
+    
+    
+}
+.all-design{
+    max-width: 1440px;
+    margin: 0 auto;
+    /* border: 1px solid green; */
+    margin-top: 30px;
+}
+.all-doc-5{
+    max-width: 850px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top:50px;
+    
+}
+
+.design-box{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 50px;
+}
+.design-box img{
+    filter: grayscale(100%);
+}
+
+@media screen and (max-width:576px) {
+    .banner-contain,  nav ul ,.contain-imgs , .all-doc-2 , .pic-1 ,.four-pic , .all-doc-4 , .all-doc-5{
+        flex-direction: column;
+        /* align-items: center; */
+        margin-bottom: 30px;
+    } 
+    .box-contain-pic{
+        grid-template-columns: repeat(1,1fr);  
+    }
+}
+@media screen and (min-width:576px) and (max-width:992px) {
+     .banner-contain ,nav ul , .all-doc-2 {
+        flex-direction: row;
+        margin-left: 20px;
+        
+     }
+     .pic-1,.four-pic{
+        flex-direction: column;
+        margin-bottom: 20px;
+     }
+     .box-contain-pic{
+        grid-template-columns: repeat(2,1fr);  
+    }
+
+      
+    
+}
+
+
+
